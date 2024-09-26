@@ -45,18 +45,6 @@
   showTitle: true
   column: 12
   fields:
-    - dataType: groupfield
-      label: Group field
-      column: 6
-      fields:
-        - fieldName: Code
-          label: Code
-          dataType: string
-          column: 4
-        - fieldName: Mobile
-          label: Mobile
-          dataType: string
-          column: 8
     - fieldName: Dob
       label: Dob
       dataType: datetime
