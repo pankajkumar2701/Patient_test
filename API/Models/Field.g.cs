@@ -181,6 +181,34 @@ namespace Patient_test.Models
         /// IsManyToManyEntity of the Field 
         /// </summary>
         public bool? IsManyToManyEntity { get; set; }
+        /// <summary>
+        /// RemoveUrl of the Field 
+        /// </summary>
+        public string? RemoveUrl { get; set; }
+        /// <summary>
+        /// SaveUrl of the Field 
+        /// </summary>
+        public string? SaveUrl { get; set; }
+        /// <summary>
+        /// AllowedExtensions of the Field 
+        /// </summary>
+        public string? AllowedExtensions { get; set; }
+        /// <summary>
+        /// MaxFileSize of the Field 
+        /// </summary>
+        public int? MaxFileSize { get; set; }
+        /// <summary>
+        /// MinFileSize of the Field 
+        /// </summary>
+        public int? MinFileSize { get; set; }
+        /// <summary>
+        /// Multiple of the Field 
+        /// </summary>
+        public bool? Multiple { get; set; }
+        /// <summary>
+        /// ShowFileList of the Field 
+        /// </summary>
+        public bool? ShowFileList { get; set; }
 
         /// <summary>
         /// Initializes a new instance of the Field class.

@@ -9,7 +9,7 @@ grid:
     fields: []
 filter:
   fields:
-    - fieldName: Name
+    - dataType: string
       label: Name
-      dataType: string
+      fieldName: Name
       column: 12

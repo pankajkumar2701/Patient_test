@@ -17,5 +17,13 @@ namespace Patient_test.Models
         /// Gets or sets the token expiration time in minutes.
         /// </summary>
         public static int TokenExpirationtime { get; set; }
+        /// <summary>
+        /// Gets or sets the connection string of blob storage.
+        /// </summary>
+        public static string BlobStorageConnectionString { get; set; }
+        /// <summary>
+        /// Gets or sets the container name of blob storage.
+        /// </summary>
+        public static string BlobStorageContainerName { get; set; }
     }
 }

@@ -60,6 +60,8 @@ var config = new ConfigurationBuilder()
 AppSetting.JwtIssuer = config.GetValue<string>("Jwt:Issuer");
 AppSetting.JwtKey = config.GetValue<string>("Jwt:Key");
 AppSetting.TokenExpirationtime = config.GetValue<int>("TokenExpirationtime");
+AppSetting.BlobStorageConnectionString = config.GetValue<string>("Azure:BlobStorageConnectionString");
+AppSetting.BlobStorageContainerName = config.GetValue<string>("Azure:BlobStorageContainerName");
 // Add NLog as the logging service
 builder.Services.AddLogging(loggingBuilder =>
 {

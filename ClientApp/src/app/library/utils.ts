@@ -21,7 +21,7 @@ export function _camelToSentenceCase(text: string): string {
             continue;
         }
         const cChar = text.charAt(iI);
-        if (/[A-Z]/.test(cChar)) { // Uppercase letter
+        if (/[A-Z0-9]/.test(cChar)) { // Uppercase letter
             if (/[a-z]/.test(cLastChar)) {
                 sResultant += ' ';
                 sResultant += cChar.toLowerCase();

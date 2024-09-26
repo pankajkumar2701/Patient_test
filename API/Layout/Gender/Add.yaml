@@ -2,8 +2,3 @@
   label: Name
   dataType: string
   column: 12
-  required: true
-  readOnly: false
-  hint: null
-  defaultValue: null
-  type: textbox
