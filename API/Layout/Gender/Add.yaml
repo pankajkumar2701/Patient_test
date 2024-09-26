@@ -1,0 +1,4 @@
+- fieldName: Name
+  label: Name
+  dataType: string
+  column: 12
