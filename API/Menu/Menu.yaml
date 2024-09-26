@@ -1,0 +1,16 @@
+- name: Patient
+  icon: fas fa-person
+  items:
+    - name: Patient
+      description: Patient management and administration.
+      route: Patient
+      icon: fas fa-person
+- name: Related entities
+  icon: fab fa-accusoft
+  items:
+    - name: Title
+      route: Title
+      icon: fas fa-person
+    - name: Gender
+      icon: fas fa-genderless
+      route: Gender
