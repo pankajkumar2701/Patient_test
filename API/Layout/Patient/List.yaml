@@ -36,3 +36,8 @@ filter:
       fieldName: Gender
       entityName: Gender
       column: 12
+    - dataType: datetime
+      required: true
+      label: Dob
+      fieldName: Dob
+      column: 12

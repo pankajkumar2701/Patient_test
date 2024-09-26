@@ -11,14 +11,14 @@
         "appInsights": false
     },
     "api": {
-        "url": "https://patientappapi.azurewebsites.net"
+        "url": "https://patientappapi26.azurewebsites.net"
     },
     "app": {
         "title": "Patient_test"
     },
     "buildInfo": {
         "number": "1.0.0.0",
-        "createdOn": "Thursday, September 26, 2024 5:57:27 AM"
+        "createdOn": "Thursday, September 26, 2024 6:37:33 AM"
     },
     "environments": []
 }

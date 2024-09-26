@@ -1,8 +1,0 @@
-- fieldName: Name
-  label: Name
-  dataType: string
-  column: 12
-- fieldName: Currency
-  label: Currency
-  dataType: guid
-  column: 12
